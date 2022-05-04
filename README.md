@@ -15,12 +15,12 @@ Code for project 13 of DA Front-end path: use an API for a bank user account wit
 2. Clone it on your computer
 3. Run two parts in the same time
 ### Backend
-3. The `npm install` command will allow you to install the dependencies.
-4. The `npm run dev:server` command will allow you to run the micro API.
+4. The `npm install` command will allow you to install the dependencies.
+5. The `npm run dev:server` command will allow you to run the micro API.
 ### Frontend
-5. The `cd Front-end` command will allow you to go to frontend branch
-6. The `npm install` command will allow you to install the dependencies.
-7. The `npm start` command will allow you to run the app.
+6. The `cd Front-end` command will allow you to go to frontend branch
+7. The `npm install` command will allow you to install the dependencies.
+8. The `npm start` command will allow you to run the app.
 
 ### Tony Stark
 
