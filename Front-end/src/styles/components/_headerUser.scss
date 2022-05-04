@@ -1,0 +1,74 @@
+@import "../variables";
+
+.HeaderUser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5% 2%;
+  section {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+  }
+  img {
+    width: 45%;
+  }
+  article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    i {
+      color: $primary_color;
+    }
+    a {
+      text-decoration: none;
+      color: $primary_color;
+      font-weight: 700;
+    }
+  }
+}
+
+//////////////////////////////////////////////Responsive//////////////////////////////////////////////
+
+@media screen and (max-width: 1024px) {
+  .HeaderUser {
+    section {
+      width: 20%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .HeaderUser {
+    section {
+      width: 27%;
+    }
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .HeaderUser {
+    section {
+      width: 45%;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .HeaderUser {
+    section {
+      width: 75%;
+    }
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .HeaderUser {
+    section {
+      width: 90%;
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+}
