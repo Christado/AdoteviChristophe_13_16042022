@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 /**
- * Actions for user: recovery token, user informations and update firstname and lastname
+ * Actions for user: recovery token, user informations and update firstname and lastname / Action creator
  */
 
 export const GET_TOKEN = 'GET_TOKEN';
