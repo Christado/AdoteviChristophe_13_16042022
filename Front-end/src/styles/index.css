@@ -317,6 +317,7 @@ body {
   border: none;
   color: white;
   font-size: 18px;
+  font-weight: bold;
 }
 
 .Form form .signInButton a {
